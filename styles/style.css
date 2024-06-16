@@ -1,0 +1,131 @@
+/* 􀅭 Letterype & Basisstyles */
+@font-face {
+    font-family: "SF Pro";
+    src: local("fonts/SF-Pro.ttf");
+}
+body {
+    font-family: SF-Pro, Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color:#FDF0D5;
+}
+
+/* 􀽎 Opmaak Startpagina */
+#startpagina {
+    margin-top: 10em;
+    text-align: center;
+}
+#startpagina h1 {
+    margin-bottom: 2em;
+    font-size: 50pt;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+#startpagina a {
+    background-color: #F48C06;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 5em;
+    padding-right: 5em;
+    color: #FDF0D5;
+    text-decoration: none;
+    border-radius: 18px;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+/* 􀙙 Opmaak Voorkant Auto */
+header {
+    background-color: #F48C06;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    margin-bottom: 4em;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    color: #FDF0D5;
+    font-size: 30pt;
+    font-weight: 700;
+}
+header nav img {
+    width: auto;
+    height: 35px;
+    margin-top: 0.45em;
+}
+header nav p {
+    margin: 15px
+}
+
+/* 􁀶 Opmaak afbeelding */
+#afbeeldingauto{
+    display: flex;
+    justify-content: center;
+}
+main img {
+    width: auto;
+    height: 20em;
+    align-self: center;
+    margin-bottom: 5em;
+    max-width: 100%;
+}
+
+/* 􂁫 Opmaak selectoren */
+#selectoren {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/* 􁙨 Opmaak kleuren */
+#kleuren {
+    display: flex;
+    background-color: #F0F0F0;
+    margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 24px;
+    margin-top: 1em;
+}
+#kleuren img {
+    width: auto;
+    height: 4em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 0;
+}
+
+/* 􁌞 Opmaak lampen */
+#lampen {
+    display: flex;
+    background-color: #F0F0F0;
+    margin: 0;
+    padding: 1em;
+    border-radius: 24px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+#lampen img {
+    width: auto;
+    height: 2.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 0;
+}
+
+/* 􁺫 Opmaak kenteken */
+#kentekens {
+    display: flex;
+    background-color: #F0F0F0;
+    margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 24px;
+    margin-top: 1em;
+}
+#kentekens img {
+    width: auto;
+    height: 4em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    margin-bottom: 0;
+}
