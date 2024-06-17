@@ -93,7 +93,7 @@ knopjeOranje.addEventListener('click', function() {
 
 knopjePaars.addEventListener('click', function() {
     klikGeluid.play();
-    wordtOranje();
+    wordtPaars();
 }); 
 
 // Event listners voor de koplampkleuren van de auto.
