@@ -20,13 +20,14 @@ let nuKoplampKleur = 'geel' ;
 
 
 // 􂄾 Bron: ChatGPT. (2024). Auto Configurator JavaScript Hulp. ChatGPT. https://chatgpt.com/share/e9813dff-c24e-47a1-86af-5ea0982f0dab
+// 􂄾 Bron: Sonja Rouwhorst, tijdens een feedbackgesprek.
 // Functies toekennen om afbeelding te veranderen. Hier is ook aangegeven dat oranje en paars niet in combinatie met LED koplampen mogen.
 function updateAutoAfbeelding() {
     if ((nuAutoKleur === 'oranje' || nuAutoKleur === 'paars') && nuKoplampKleur === 'geel') {
         afbeeldingvoor.src = 'autotjes/BOEM.svg'; 
         alert("Deze combinatie is niet mogelijk. Deze kleuren zijn duurder en komen standaard met LED koplampen.");
     } else {
-        let afbeeldingPath = `autotjes/car_${nuAutoKleur}/${nuAutoKleur}_${nuKoplampKleur}.svg`; 
+        let afbeeldingPath = 'autotjes/car_'+nuAutoKleur+'/'+nuAutoKleur+'_'+nuKoplampKleur+'.svg'; 
         afbeeldingvoor.src = afbeeldingPath;
     }
 }

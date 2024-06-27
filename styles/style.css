@@ -129,3 +129,13 @@ main img {
     margin-right: 0.5em;
     margin-bottom: 0;
 }
+
+/* 􁉅 Opmaak foutpagina */
+#pijltjeTerug {
+    margin-bottom: 0.34em;
+}
+#foutTekst {
+    display: flex;
+    align-items: center;
+    margin: 2em;
+}
